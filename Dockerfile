@@ -36,7 +36,7 @@ ENV HOME=/root \
     RUN_XTERM=yes \
     RUN_FLUXBOX=yes \
     RUN_CALIBRE=yes
-COPY . /app
+COPY *. /app
 CMD ["/app/entrypoint.sh"]
 VOLUME ["/mnt/Libraries"]
 EXPOSE 8080 8081
