@@ -10,7 +10,6 @@ RUN set -ex; \
       bash \
       fluxbox \
       git \
-      net-tools \
       novnc \
       socat \
       supervisor \
